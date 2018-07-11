@@ -1,0 +1,31 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Tiny NodeJs Static Web server",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": {
+    "fix": "eslint --fix",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AwakenedSomeone/anydoor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AwakenedSomeone/anydoor/issues"
+  },
+  "homepage": "https://github.com/AwakenedSomeone/anydoor#readme",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "pre-commit": "^1.2.2"
+  }
+}
